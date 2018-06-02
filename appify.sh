@@ -43,7 +43,7 @@ cat > "$info_path" <<EOF
 EOF
 
 mkdir -p "$macos_path"
-mv "$script_path" "$macos_path/$app_shortname"
+cp "$script_path" "$macos_path/$app_shortname"
 chmod +x "$macos_path/$app_shortname"
 if [[ ! -z "$icon_path" ]]; then
     mkdir -p "$resources_path"
