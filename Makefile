@@ -1,2 +1,4 @@
+BIN=/usr/local/bin
+
 install:
-	install apper /usr/local/bin
+	install apper $(BIN)
