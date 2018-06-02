@@ -1,10 +1,11 @@
 BIN=/usr/local/bin
+SCRIPT=apper
 
 install:
-	install apper $(BIN)
+	install $(SCRIPT) $(BIN)
 
 link:
-	link apper $(BIN)/apper
+	link $(SCRIPT) $(BIN)/$(SCRIPT)
 
 uninstall:
-	rm $(BIN)/apper
+	rm $(BIN)/$(SCRIPT)
