@@ -45,6 +45,7 @@ defaults write "$info_path" CFBundleExecutable -string "$app_shortname"
 
 mkdir -p "$macos_path"
 mv "$script_path" "$macos_path/$app_shortname"
+chmod +x "$macos_path/$app_shortname"
 if [[ ! -z "$icon_path" ]]; then
     mkdir -p "$resources_path"
     defaults write "$info_path" CFBundleIconFile -string "$app_shortname.icns"
