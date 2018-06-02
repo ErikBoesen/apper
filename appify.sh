@@ -6,7 +6,7 @@ YELLOW="\e[33m"
 GREEN="\e[32m"
 RESET="\e[0m"
 
-function log { printf "\- $1.\n"; }
+function log { printf "* $1.\n"; }
 function succ { printf "${GREEN}$1${RESET}\n"; }
 function warn { printf "${YELLOW}$1${RESET}\n"; }
 function fail {
@@ -70,4 +70,6 @@ if [[ ! -z "$icon_path" ]]; then
     log "Copying icon $icon_path to $resources_path"
     mkdir -p "$resources_path"
     cp "$icon_path" "$resources_path/$app_shortname.icns"
+else
+    log "No icon specified."
 fi
