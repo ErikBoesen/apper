@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-script_path=$1
+exec_path=$1
 app_path=$2
 app_name="$(basename $app_path)"
 app_shortname="${app_name%.app}"
@@ -43,7 +43,7 @@ cat > "$info_path" <<EOF
 EOF
 
 mkdir -p "$macos_path"
-cp "$script_path" "$macos_path/$app_shortname"
+cp "$exec_path" "$macos_path/$app_shortname"
 chmod +x "$macos_path/$app_shortname"
 if [[ ! -z "$icon_path" ]]; then
     mkdir -p "$resources_path"
