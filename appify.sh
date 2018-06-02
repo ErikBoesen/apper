@@ -22,8 +22,9 @@ case $key in
 esac
 done
 
-macos_path="$app_path/Contents/MacOS"
-resources_path="$app_path/Contents/Resources"
+contents_path="$app_path/Contents"
+macos_path="$contents_path/MacOS"
+resources_path="$contents_path/Resources"
 
 mkdir -p "$macos_path"
 mv "$script_path" "$macos_path/${app_name%.app}"
