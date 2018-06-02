@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-mv *.app/Contents/Resources/* .
+mv *.app/Contents/MacOS/* .
 rm -rf *.app
