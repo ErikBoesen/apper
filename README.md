@@ -3,7 +3,7 @@ A simple bash script for creating a Mac `.app` application bundle from a bash sc
 
 ## Use
 ```sh
-./appify.sh special_script.sh ~/Desktop/Specialty.app
+appify special_script.sh ~/Desktop/Specialty.app
 ```
 
 ## Licensing
