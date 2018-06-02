@@ -1,5 +1,5 @@
 # appify
-A simple bash script for creating a Mac `.app` application bundle from a bash script.
+A simple bash script for creating a Mac `.app` application bundle from a bash script or other executable.
 
 ## Use
 ```sh
