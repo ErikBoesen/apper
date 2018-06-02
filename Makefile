@@ -5,3 +5,6 @@ install:
 
 link:
 	link apper $(BIN)/apper
+
+uninstall:
+	rm $(BIN)/apper
