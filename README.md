@@ -15,6 +15,11 @@ make link
 ```
 This will symlink the script so that you can execute it without using bothersome `./` syntax or the like, while accounting for changes made in the locally cloned repository.
 
+To undo either of these installation methods, run
+```sh
+make uninstall
+```
+
 ## Use
 ```sh
 apper program.sh ~/Program.app --icon /path/to/file.icns
