@@ -17,7 +17,7 @@ This will symlink the script so that you can execute it without using bothersome
 
 ## Use
 ```sh
-appify program.sh ~/Program.app --icon /path/to/file.icns
+apper program.sh ~/Program.app --icon /path/to/file.icns
 ```
 
 ## Licensing
