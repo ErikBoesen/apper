@@ -17,7 +17,7 @@ This will symlink the script so that you can execute it without using bothersome
 
 ## Use
 ```sh
-appify special_script.sh ~/Desktop/Specialty.app
+appify program.sh ~/Program.app --icon /path/to/file.icns
 ```
 
 ## Licensing
