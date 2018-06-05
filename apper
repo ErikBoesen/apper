@@ -71,5 +71,5 @@ if [[ ! -z "$icon_path" ]]; then
     mkdir -p "$resources_path"
     cp "$icon_path" "$resources_path/$app_shortname.icns"
 else
-    log "No icon specified."
+    log "No icon specified"
 fi
